@@ -1,0 +1,195 @@
+{
+  "title": "HashLib",
+  "version": "2.1.2",
+  "authors": [ "tomanu", "LonghronShen" ],
+  "owners": [ "tomanu", "LonghronShen" ],
+  "projectUrl": "http://hashlib.codeplex.com/",
+  "licenseUrl": "http://hashlib.codeplex.com/license",
+  "description": "Implementations of many hashing algorithms: for hashtables, cryptographic purpose and checksums.\r\n\r\n--THIS IS NOT MY WORK, any and all credit goes to tomanu--\r\n\r\nFYI: This package was built on the .NET framework of 4.5.1\r\nAlso, The last digit section are my own personal updates :)",
+  "summary": "Implementations of many hashing algorithms: for hashtables, cryptographic purpose and checksums.",
+
+  "packOptions": {
+    "repository": {
+      "type": "git",
+      "url": "http://hashlib.codeplex.com/"
+    },
+    "tags": [ "hash", ".NET" ],
+    "requireLicenseAcceptance": false,
+    "licenseUrl": "http://nvorbis.codeplex.com/license",
+    "owners": [ "tomanu", "LonghronShen" ],
+    "summary": "Implementations of many hashing algorithms: for hashtables, cryptographic purpose and checksums."
+  },
+
+  "buildOptions": {
+    "allowUnsafe": true
+  },
+
+  "dependencies": {
+  },
+
+  "frameworks": {
+    //"portable45-net45+win8+wpa81": {
+    //  "imports": [
+    //    "dotnet5.6",
+    //    "portable-net45+win8+wpa81"
+    //  ],
+    //  "dependencies": {
+    //  },
+    //  "frameworkAssemblies": {
+    //    "mscorlib": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Collections": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Collections.Concurrent": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Linq": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Linq.Expressions": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Linq.Queryable": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Reflection": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Reflection.Extensions": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Reflection.Primitives": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Runtime": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Runtime.Extensions": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Text.Encoding": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Diagnostics.Debug": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    }
+    //  },
+    //  "buildOptions": {
+    //    "define": [ "PORTABLE" ]
+    //  }
+    //},
+    //"portable45-net45+win": {
+    //  "imports": [
+    //    "dotnet5.6",
+    //    "portable-net45+win8+wpa81"
+    //  ],
+    //  "dependencies": {
+    //  },
+    //  "frameworkAssemblies": {
+    //    "mscorlib": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Collections": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Collections.Concurrent": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Linq": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Linq.Expressions": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Linq.Queryable": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Reflection": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Reflection.Extensions": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Reflection.Primitives": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Runtime": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Runtime.Extensions": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Text.Encoding": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    },
+    //    "System.Diagnostics.Debug": {
+    //      "version": "4.0.0.0",
+    //      "type": "build"
+    //    }
+    //  },
+    //  "buildOptions": {
+    //    "define": [ "PORTABLE" ]
+    //  }
+    //},
+    "netstandard1.6": {
+      "imports": [
+        "dotnet5.6",
+        "portable-net45+win8+wpa81"
+      ],
+      "dependencies": {
+        "Microsoft.NETCore.Portable.Compatibility": "1.0.0",
+        "NETStandard.Library": "1.6.0",
+        "System.Diagnostics.Debug": "4.3.0",
+        "System.IO.FileSystem": "4.3.0",
+        "System.Runtime.InteropServices": "4.3.0",
+        "System.Runtime.Serialization.Formatters": "4.3.0",
+        "System.Security.Cryptography.Algorithms": "4.3.0",
+        "System.Security.Cryptography.Csp": "4.3.0",
+        "System.Security.Cryptography.Cng": "4.3.0",
+        "System.Text.Encoding": "4.3.0",
+        "System.Threading": "4.3.0",
+        "System.Threading.Thread": "4.3.0"
+      },
+      "buildOptions": {
+        "define": [ "NETCORE" ]
+      }
+    },
+    "net451": {
+    }
+  }
+}
